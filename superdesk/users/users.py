@@ -75,12 +75,6 @@ class UsersResource(Resource):
                 'required': False,
                 'nullable': True,
             },
-            'twitter': {
-                'type': 'string',
-                'required': False,
-                'nullable': True,
-                'twitter': True,
-            },
             'jid': {
                 'unique': True,
                 'type': 'string',

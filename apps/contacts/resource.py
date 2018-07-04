@@ -90,11 +90,6 @@ class ContactsResource(Resource):
                 'type': 'email'
             }
         },
-        'twitter': {
-            'type': 'string',
-            'required': False,
-            'twitter': True
-        },
         'facebook': {
             'type': 'string',
             'required': False

@@ -43,7 +43,6 @@ install_requires = [
     'mongolock>=1.3.4,<1.4',
     'PyYAML>=3.11,<3.13',
     'lxml>=3.8,<4.2',
-    'python-twitter==3.3',
     'chardet<4.0',
     'pymongo>=0.4,<4.0',
 ]

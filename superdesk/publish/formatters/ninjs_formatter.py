@@ -410,7 +410,7 @@ class NINJSFormatter(Formatter):
             }
 
             # include socials only if they are non-empty
-            socials = ('facebook', 'twitter', 'instagram')
+            socials = ('facebook', 'instagram')
             for social in socials:
                 social_data = user.get(social, author.get(social, ''))
                 if social_data:
